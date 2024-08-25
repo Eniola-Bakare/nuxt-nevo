@@ -1,7 +1,11 @@
 <template>
   <div class="defaultLayout flex flex-col">
-    <slot />
-    <Footer />
+    <div class="">
+      <slot />
+    </div>
+    <div class="w-full flex justify-center bg-[#0A0B20] rounded-t-3xl">
+      <Footer />
+    </div>
   </div>
 </template>
 <style scoped>
