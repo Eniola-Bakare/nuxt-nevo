@@ -6,3 +6,7 @@
   font-family: "BuiltTitling";
   src: url("/assets/fonts/builtTitlingBd.ttf");
 }
+
+.defaultLayout::-webkit-scrollbar {
+  display: none !important; 
+}

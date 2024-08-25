@@ -3,9 +3,9 @@ const loading = ref(false);
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
+  <div class="defaultLayout flex flex-col items-center">
     <section
-      class="hero-section flex flex-col items-center gap-7 h-full overflow-clip w-[80%]"
+      class="hero-section  w-full flex flex-col items-center gap-7 h-full overflow-clip"
     >
       <h1
         class="hero-text uppercase text-[#000] text-center text-[73px] font-custom pt-24"
@@ -42,7 +42,7 @@ const loading = ref(false);
     </section>
 
     <section
-      class="products-section flex flex-col gap-16 px-[78px] pt-[125px] pb-[196px] bg-[#E5E7FF]"
+      class="products-section  w-full flex flex-col gap-16 px-[78px] pt-[125px] pb-[196px] bg-[#E5E7FF]"
     >
       <div class="texts flex flex-col justify-center items-center">
         <h2
@@ -116,13 +116,13 @@ const loading = ref(false);
     </section>
 
     <section
-      class="products-section bg-white flex flex-col gap-16 px-[78px] pt-[125px] pb-[196px]"
+      class="products-section w-full bg-white flex flex-col gap-16 px-[78px] pt-[125px] pb-[196px]"
     >
       <div class="texts flex flex-col justify-center items-center">
         <h2
           class="hero-text uppercase text-nevoPrimary text-center text-[73px] font-custom pt-24"
         >
-          JOIN THE TECH_DRIVEN FUTURE
+          JOIN THE TECH-DRIVEN FUTURE
         </h2>
 
         <p
