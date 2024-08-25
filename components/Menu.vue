@@ -3,5 +3,7 @@ const loading = ref(false);
 </script>
 
 <template>
-  <main class="bg-[var(#FFFFFF,#AAC0FF)"><Nav /></main>
+  <div class="relative">
+    <div class="monile-sidebar"></div>
+  </div>
 </template>
