@@ -8,13 +8,13 @@ const loading = ref(false);
       class="hero-section w-full flex flex-col items-center gap-7 overflow-clip"
     >
       <h1
-        class="hero-text uppercase text-[#000] text-center text-[35px]  xl:text-[73px] font-custom pt-24"
+        class="hero-text uppercase text-[#000] text-center text-[35px] xl:text-[73px] font-custom pt-24"
       >
         Innovating Solutions for everyday business needs
       </h1>
 
       <p
-        class="xl:w-[60%] text-lg font-[Inter] font-medium text-[#000] text-center"
+        class="xl:w-[60%] text-lg font-[Inter] font-medium text-[#000] text-center px-[11px] xl:px-0"
       >
         Nevo is the visionary parent company dedicated to harnessing the power
         of technology to address diverse everyday business needs across a
@@ -30,7 +30,7 @@ const loading = ref(false);
       <img
         src="/assets/notification.png"
         alt="a notification bell"
-        class="py-8 "
+        class="py-8"
       />
 
       <div class="2xl:h-[530px]">
@@ -97,13 +97,15 @@ const loading = ref(false);
         <div
           class="flex flex-col items-center justify-center 2xl:justify-between w-[90%] 2xl:w-[630px] 2xl:h-[824px] px-8 pt-10 lg:pt-[79px] lg:px-12 bg-nevoPrimary rounded-3xl"
         >
-          <div class="flex flex-col items-center 2xl:items-start gap-5 texts text-white pb-10">
+          <div
+            class="flex flex-col items-center 2xl:items-start gap-5 texts text-white pb-10"
+          >
             <h3
               class="text-[24px] lg:text-[32px] font-custom text-center 2xl:text-start"
             >
               TALENT SAFARI : Connecting Businesses with Contractors
             </h3>
-            <p class="w-[70%] text font-[Inter] text-center 2xl:text-start ">
+            <p class="w-[70%] text font-[Inter] text-center 2xl:text-start">
               Talent Safari serves as the platform where businesses can
               effortlessly connect with a network of skilled contractors.
             </p>
