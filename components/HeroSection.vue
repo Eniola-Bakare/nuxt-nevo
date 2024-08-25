@@ -8,7 +8,7 @@ const loading = ref(false);
       class="hero-section w-full m-w-[1440px] flex flex-col items-center gap-7 overflow-clip"
     >
       <h1
-        class="hero-text uppercase text-[#000] text-center text-[35px] xl:text-[73px] font-custom pt-24"
+        class="hero-text w-[60%] uppercase text-[#000] text-center text-[35px] xl:text-[73px] font-custom pt-24"
       >
         Innovating Solutions for everyday business needs
       </h1>
