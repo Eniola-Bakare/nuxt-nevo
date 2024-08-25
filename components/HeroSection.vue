@@ -5,16 +5,16 @@ const loading = ref(false);
 <template>
   <div class="defaultLayout w-full flex flex-col items-center mx-auto my-auto">
     <section
-      class="hero-section w-full flex flex-col items-center gap-7 h-full overflow-clip"
+      class="hero-section w-full flex flex-col items-center gap-7 overflow-clip"
     >
       <h1
-        class="hero-text uppercase text-[#000] text-center text-[73px] font-custom pt-24"
+        class="hero-text uppercase text-[#000] text-center text-[35px]  xl:text-[73px] font-custom pt-24"
       >
         Innovating Solutions for everyday business needs
       </h1>
 
       <p
-        class="w-[60%] text-lg font-[Inter] font-medium text-[#000] text-center"
+        class="xl:w-[60%] text-lg font-[Inter] font-medium text-[#000] text-center"
       >
         Nevo is the visionary parent company dedicated to harnessing the power
         of technology to address diverse everyday business needs across a
@@ -22,7 +22,7 @@ const loading = ref(false);
       </p>
 
       <button
-        class="flex py-[18px] px-[73px] justify-center items-center rounded-full bg-nevoSecondary text-white font-custom font-bold"
+        class="flex py-4 px-10 sm:py-[18px] sm:px-[73px] justify-center items-center rounded-full bg-nevoSecondary text-white font-custom font-bold"
       >
         Explore products
       </button>
@@ -30,13 +30,14 @@ const loading = ref(false);
       <img
         src="/assets/notification.png"
         alt="a notification bell"
-        class="py-8"
+        class="py-8 "
       />
 
-      <div class="h-[530px]">
+      <div class="2xl:h-[530px]">
         <img
           src="/assets/heroImage.png"
           alt="a picture of a man operating servers"
+          class=""
         />
       </div>
     </section>
