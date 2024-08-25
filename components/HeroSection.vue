@@ -42,7 +42,7 @@ const loading = ref(false);
     </section>
 
     <section
-      class="products-section w-full m-w-[1440px] flex flex-col justify-center items-center gap-16 sm:px-16 lg:px-[78px] lg:pt-[125px] pb-[85px] lg:pb-[196px] bg-[#E5E7FF]"
+      class="products-section w-full m-w-[1440px] flex flex-col justify-center items-center gap-16 px-6 lg:px-[78px] lg:pt-[125px] pb-[85px] lg:pb-[196px] bg-[#E5E7FF]"
     >
       <div class="texts flex flex-col justify-center items-center">
         <h2
@@ -51,7 +51,7 @@ const loading = ref(false);
           our products
         </h2>
         <p
-          class="md:w-[50%] font-[Inter] font-medium text-[#666666] text-lg text-center"
+          class="xl:w-[70%] font-[Inter] font-medium text-[#666666] text-lg text-center"
         >
           An innovation driven company with a relentless commitment to utilizing
           technology to solve a wide spectrum of everyday business challenges

@@ -23,9 +23,9 @@ const navLinks = ref([
   <div class="flex justify-between items-center font-custom">
     <Logo />
 
-    <nav class="">
+    <nav class="hidden lg:flex">
       <ul
-        class="flex gap-5 py-[18px] px-[32px] justify-center items-center rounded-full bg-[#FFFFFF]"
+        class="gap-5 py-[18px] px-[32px] justify-center items-center rounded-full bg-[#FFFFFF]"
       >
         <li
           v-for="(navLink, index) in navLinks"
