@@ -5,7 +5,7 @@ const loading = ref(false);
 <template>
   <div class="defaultLayout w-full flex flex-col items-center mx-auto my-auto">
     <section
-      class="hero-section w-full flex flex-col items-center gap-7 overflow-clip"
+      class="hero-section w-full m-w-[1440px] flex flex-col items-center gap-7 overflow-clip"
     >
       <h1
         class="hero-text uppercase text-[#000] text-center text-[35px] xl:text-[73px] font-custom pt-24"
